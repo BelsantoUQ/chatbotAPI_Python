@@ -16,7 +16,7 @@ app.add_middleware(
 
 @app.get("/chatbotUQ")
 def chatear(question: str):
-    openai.api_key = "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"
+    openai.api_key = "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"
     conversation = ""
 
     conversation += "\nHumano: "+ question + "\nAI:"
